@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Private Gallery</string>
+    <string name="help_text">
+        My Private Gallery provides you with two password protected vaults:\n\n
+            \t1)	Shared Gallery: This is gallery that is intended to be shared with your close ones. It is protected by a password.\n\n
+            \t2)	Secret Gallery: This is a gallery that is intended to be very personal. It is protected by a password. The images from both shared and secret gallery appear here.\n
+    </string>
+
+</resources>
