@@ -1,0 +1,65 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menu_lock"
+        android:checkable="true"
+        android:title="Show Locks" />
+
+    <item
+        android:id="@+id/menu_import"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="Import From Gallery"/>
+
+    <item
+        android:id="@+id/menu_export"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="Export To Gallery"/>
+
+    <item
+        android:id="@+id/menu_private"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="Move To Secret"/>
+
+    <item
+        android:id="@+id/menu_public"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="Move To Shared"/>
+
+    <item
+        android:id="@+id/menu_delete"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="Delete Image"/>
+
+    <item
+        android:id="@+id/menu_change_public_password"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:title="Change Shared Password"/>
+
+    <item
+        android:id="@+id/menu_change_private_password"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        android:title="Change Secret Password"/>
+
+    <item
+        android:id="@+id/menu_sign_out"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        android:title="Sign Out"/>
+
+    <item
+        android:id="@+id/menu_help"
+        android:orderInCategory="5"
+        app:showAsAction="never"
+        android:title="Help"/>
+
+
+</menu>
